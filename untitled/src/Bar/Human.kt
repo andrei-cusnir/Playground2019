@@ -1,0 +1,4 @@
+package Bar
+
+class Human {
+}
