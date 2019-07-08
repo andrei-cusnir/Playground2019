@@ -1,5 +1,11 @@
 package Bar.Drinks
 
-class Drink {
-    val cost = null
+abstract class Drink() {
+    abstract var cost:Double
+    abstract var description:String
+
+    open fun getDescription(description: String):String{
+        return description
+    }
+
 }
