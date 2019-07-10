@@ -1,7 +1,10 @@
+
 import Bar.Drinks.Cola
+import Bar.People.Bartender
 
 fun main(args: Array<String>){
     println("Hello World!")
-    val cola = Cola(cost = 2.2,description = "Cola")
-    println(cola.description)
+    val bartender:Bartender
+    var cola:Cola = Cola()
+    println(cola.getDescription())
 }

@@ -2,11 +2,11 @@ package Bar.Drinks
 
 abstract class Drink() {
 
-    abstract var cost:Double
-    abstract var description:String
 
-    open fun getDescription(description: String):String{
+    open fun getDescription():String{
+        var description = "Drink"
         return description
     }
+    open abstract fun cost():Double
 
 }
