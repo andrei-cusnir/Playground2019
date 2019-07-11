@@ -1,6 +1,9 @@
-package Bar.Drinks
+package Bar.Drinks.Soda
 
-    class Cola:Drink {
+import Bar.Drinks.Decorators.DrinkDecorator
+import Bar.Drinks.Drink
+
+class Cola: Drink,DrinkDecorator {
 
         override val description: String
             get() {
