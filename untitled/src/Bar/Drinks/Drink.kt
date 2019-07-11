@@ -1,7 +1,7 @@
 package Bar.Drinks
 
 abstract class Drink() {
-
+  //  abstract var drink:Drink
 
     open fun getDescription():String{
         var description = "Drink"
