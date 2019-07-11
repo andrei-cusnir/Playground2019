@@ -8,8 +8,8 @@ fun main(args: Array<String>){
     println("Hello World!")
     val bartender:Bartender
     var cola:Cola = Cola()
-    println(cola.getDescription())
+    println(cola.description)
     var drink1:Drink = Cola()
     drink1 = Lime(drink1)
-    println(drink1.getDescription())
+    println(drink1.description)
 }

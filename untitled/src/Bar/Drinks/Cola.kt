@@ -1,15 +1,12 @@
 package Bar.Drinks
 
-    class Cola():Drink() {
+    class Cola:Drink {
 
+        override val description: String
+            get() {
+                return "Cola"
+            }
         override fun cost(): Double {
-            return 1.1
+            return 2.2
         }
-
-        override fun getDescription(): String {
-
-            var description = "Cola"
-            return description
-        }
-
 }

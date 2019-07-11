@@ -1,12 +1,8 @@
 package Bar.Drinks
 
-abstract class Drink() {
-  //  abstract var drink:Drink
+interface Drink {
 
-    open fun getDescription():String{
-        var description = "Drink"
-        return description
-    }
-    open abstract fun cost():Double
-
+    val description: String
+        get() = "Unknown Drink"
+    fun cost():Double
 }
